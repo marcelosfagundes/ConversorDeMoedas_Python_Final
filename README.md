@@ -20,16 +20,14 @@ O resultado da conversão está com base nas seguintes cotações:
 
 Estrutura do projeto:
 
-Controladores - conjunto de pacotes responsáveis para fazer a ponte entre o input e output das informações.
-Serviços - pacotes responsáveis para devolver para o usuário a conversão
-TesteUnitario - TDD das funções de serviços.
-Principal - View
+* Controladores - conjunto de pacotes responsáveis para fazer a ponte entre o input e output das informações.
+* Serviços - pacotes responsáveis para devolver para o usuário a conversão
+* TesteUnitario - TDD das funções de serviços.
+* Principal - View
 
 *************************************************************************************
 Execução do sistema:
 
 Para executar o conversor de moedas, baixe o projeto do github para sua máquina
 No prompt de comando, digite : python principal.py
-Observação:
-
-Foi criado os testes unitários das formulas das conversões, para executar digite: python -m unittest
+Foram criados os testes unitários das formulas das conversões, para executar digite: python -m unittest
