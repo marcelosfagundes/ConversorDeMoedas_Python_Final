@@ -28,6 +28,6 @@ Estrutura do projeto:
 *************************************************************************************
 Execução do sistema:
 
-Para executar o conversor de moedas, baixe o projeto do github para sua máquina
-No prompt de comando, digite : python principal.py
-Foram criados os testes unitários das formulas das conversões, para executar digite: python -m unittest
+* Para executar o conversor de moedas, baixe o projeto do github para sua máquina
+* No prompt de comando, digite : python principal.py
+* Foram criados os testes unitários das formulas das conversões, para executar digite: python -m unittest
