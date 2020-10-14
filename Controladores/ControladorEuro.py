@@ -1,4 +1,4 @@
-import ConversorEuro as EUR
+from Servicos import ConversorEuro as EUR
 
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 

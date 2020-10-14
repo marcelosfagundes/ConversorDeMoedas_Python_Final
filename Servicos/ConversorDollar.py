@@ -1,5 +1,5 @@
-import ConversorLibraEsterlina as GBP
-import ConversorReal as BRL
+from Servicos import ConversorLibraEsterlina as GBP
+from Servicos import ConversorReal as BRL
 
 def DollarParaReal(pValor):
     return pValor * 5.65

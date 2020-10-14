@@ -1,7 +1,7 @@
-import ConversorDollar as USD
-import ConversorReal as BRL
-import ConversorEuro as EUR
-import ConversorBitcoin as BTC
+from Servicos import ConversorDollar as USD
+from Servicos import ConversorReal as BRL
+from Servicos import ConversorEuro as EUR
+from Servicos import ConversorBitcoin as BTC
 
 def LibraParaDollar(pValor):
     return (7.24 / USD.DollarParaReal(1)) * pValor   

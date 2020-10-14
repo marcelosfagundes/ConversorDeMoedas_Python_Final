@@ -1,7 +1,7 @@
-import ConversorDollar as USD
-import ConversorReal as BRL
-import ConversorLibraEsterlina as GBP
-import ConversorBitcoin as BTC
+from Servicos import ConversorDollar as USD
+from Servicos import ConversorReal as BRL
+from Servicos import ConversorLibraEsterlina as GBP
+from Servicos import ConversorBitcoin as BTC
 
 def EuroParaDollar(pValor):
     return pValor * 1.18    

@@ -1,4 +1,4 @@
-import Controlador as Control
+from Controladores import Controlador as Control
 
 opçãoOrigem=0
 while opçãoOrigem != 7:

@@ -1,7 +1,7 @@
-import ConversorPeso as ARS
-import ConversorEuro as EUR
-import ConversorDollar as USD
-import ConversorBitcoin as BTC
+from Servicos import ConversorPeso as ARS
+from Servicos import ConversorEuro as EUR
+from Servicos import ConversorDollar as USD
+from Servicos import ConversorBitcoin as BTC
 
 def RealParaDollar(pValor):
     return pValor / 5.65

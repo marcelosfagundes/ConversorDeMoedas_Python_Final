@@ -1,4 +1,4 @@
-import ConversorBitcoin as Bitcoin
+from Servicos import ConversorBitcoin as Bitcoin
 
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 

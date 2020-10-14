@@ -1,4 +1,4 @@
-import ConversorPeso as ARS
+from Servicos import ConversorPeso as ARS
 
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 

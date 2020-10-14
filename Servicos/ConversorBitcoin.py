@@ -1,7 +1,7 @@
-import ConversorDollar as USD
-import ConversorPeso as ARS
-import ConversorEuro as EUR
-import ConversorLibraEsterlina as GBP
+from Servicos import ConversorDollar as USD
+from Servicos import ConversorPeso as ARS
+from Servicos import ConversorEuro as EUR
+from Servicos import ConversorLibraEsterlina as GBP
 
 
 def BitcoinParaDollar(pValor):

@@ -1,5 +1,5 @@
-import ConversorLibraEsterlina as GBP
-#Teste Github
+from Servicos import ConversorLibraEsterlina as GBP
+
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 
         return GBP.LibraParaDollar(Valor)

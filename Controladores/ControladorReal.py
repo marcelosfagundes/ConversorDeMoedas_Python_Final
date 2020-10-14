@@ -1,4 +1,4 @@
-import ConversorReal as BRL
+from Servicos import ConversorReal as BRL
 
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 

@@ -1,9 +1,9 @@
-import ControladorBitcoin as ControlBitcoin
-import ControladorDollar as ControlDollar
-import ControladorEuro as ControlEuro
-import ControladorLibraEsterlina as ControlLibraEsterlina
-import ControladorPeso as ControlPeso
-import ControladorReal as ControlReal
+from Controladores import  ControladorBitcoin as ControlBitcoin
+from Controladores import ControladorDollar as ControlDollar
+from Controladores import ControladorEuro as ControlEuro
+from Controladores import ControladorLibraEsterlina as ControlLibraEsterlina
+from Controladores import ControladorPeso as ControlPeso
+from Controladores import ControladorReal as ControlReal
 
 ValorConversao = 0
 

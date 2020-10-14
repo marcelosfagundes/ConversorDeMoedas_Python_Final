@@ -1,10 +1,10 @@
 import unittest 
-import ConversorDollar as USD
-import ConversorReal as BRL
-import ConversorPeso as ARS
-import ConversorEuro as EUR
-import ConversorLibraEsterlina as GBP
-import ConversorBitcoin as BTC
+from Servicos import ConversorDollar as USD
+from Servicos import ConversorReal as BRL
+from Servicos import ConversorPeso as ARS
+from Servicos import ConversorEuro as EUR
+from Servicos import ConversorLibraEsterlina as GBP
+from Servicos import ConversorBitcoin as BTC
 import math as Math
 
 class test_ValidarConversorDeMoedas(unittest.TestCase):

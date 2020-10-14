@@ -1,4 +1,4 @@
-import ConversorDollar as USD
+from Servicos import ConversorDollar as USD
 
 def RetornarCambio(moedaDestino, Valor): 
     if moedaDestino == 1  : 
